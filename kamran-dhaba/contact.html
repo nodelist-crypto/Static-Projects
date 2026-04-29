@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Kamran Dhaba</title>
+  <meta name="description" content="Get in touch with Kamran Dhaba — for delivery, catering, gift vouchers or just to say hello." />
+  <meta name="theme-color" content="#6B1B1B" />
+  <link rel="icon" type="image/png" href="images/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__brand"><span class="nav__logo">KD</span><span><span class="nav__name">Kamran Dhaba</span><span class="nav__tag">Since 1987</span></span></a>
+      <nav>
+        <ul class="nav__menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav__cta">
+        <a href="reservations.html" class="btn btn--primary btn--sm">Book a Table</a>
+        <button class="nav__toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="crumbs"><a href="index.html">Home</a> &nbsp;/&nbsp; Contact</div>
+      <h1 class="page-hero__title">Get in Touch</h1>
+      <p class="page-hero__lede">Order delivery, plan a catering, ask about gift vouchers — or just send us a hello.</p>
+    </div>
+  </section>
+
+  <section class="section section--cream">
+    <div class="container">
+      <div class="form-grid">
+        <div class="form-card reveal">
+          <h2>Send Us a Message</h2>
+          <p>We reply to every message within 24 hours, usually much sooner.</p>
+
+          <form id="contact-form" novalidate>
+            <div class="field--row">
+              <div class="field">
+                <label for="c-name">Your Name *</label>
+                <input id="c-name" type="text" name="name" required placeholder="Your name" />
+              </div>
+              <div class="field">
+                <label for="c-email">Email *</label>
+                <input id="c-email" type="email" name="email" required placeholder="you@example.com" />
+              </div>
+            </div>
+
+            <div class="field--row">
+              <div class="field">
+                <label for="c-phone">Phone (optional)</label>
+                <input id="c-phone" type="tel" name="phone" placeholder="+92 300 1234567" />
+              </div>
+              <div class="field">
+                <label for="c-subject">I'm writing about *</label>
+                <select id="c-subject" name="subject" required>
+                  <option value="">Choose a topic</option>
+                  <option>Home delivery order</option>
+                  <option>Catering & events</option>
+                  <option>Gift vouchers</option>
+                  <option>Reservation question</option>
+                  <option>Press / media</option>
+                  <option>Careers</option>
+                  <option>Feedback</option>
+                  <option>Something else</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="c-message">Message *</label>
+              <textarea id="c-message" name="message" required placeholder="Tell us a bit more — guest count, date, allergies, anything we should know."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--primary" style="width:100%;">Send Message</button>
+          </form>
+        </div>
+
+        <div>
+          <div class="info-card reveal">
+            <h3>Reach Us Directly</h3>
+            <div class="info-row">
+              <div class="info-row__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.6a2 2 0 0 1-.5 2.1L8 9.6a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.8.3 1.7.5 2.6.6a2 2 0 0 1 1.7 2z"/></svg>
+              </div>
+              <div class="info-row__body">
+                <strong>+92 42 3578 0987</strong>
+                <span>Daily, 11 AM — 11 PM</span>
+              </div>
+            </div>
+            <div class="info-row">
+              <div class="info-row__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8v.5z"/></svg>
+              </div>
+              <div class="info-row__body">
+                <strong>WhatsApp +92 300 7654321</strong>
+                <span>Order ahead, group bookings, catering</span>
+              </div>
+            </div>
+            <div class="info-row">
+              <div class="info-row__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 4h16c1 0 2 1 2 2v12c0 1-1 2-2 2H4c-1 0-2-1-2-2V6c0-1 1-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div class="info-row__body">
+                <strong>hello@kamrandhaba.pk</strong>
+                <span>For press, careers and partnerships</span>
+              </div>
+            </div>
+            <div class="info-row">
+              <div class="info-row__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="info-row__body">
+                <strong>27 GT Road, Mughalpura</strong>
+                <span>Lahore, Pakistan</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hours-card reveal">
+            <h3>Opening Hours</h3>
+            <ul>
+              <li data-day="mon"><span>Monday</span><span>11:00 AM — 11:00 PM</span></li>
+              <li data-day="tue"><span>Tuesday</span><span>11:00 AM — 11:00 PM</span></li>
+              <li data-day="wed"><span>Wednesday</span><span>11:00 AM — 11:00 PM</span></li>
+              <li data-day="thu"><span>Thursday</span><span>11:00 AM — 11:30 PM</span></li>
+              <li data-day="fri"><span>Friday</span><span>7:00 AM — 12:00 AM</span></li>
+              <li data-day="sat"><span>Saturday</span><span>11:00 AM — 12:00 AM</span></li>
+              <li data-day="sun"><span>Sunday</span><span>7:00 AM — 11:30 PM</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map placeholder -->
+  <section style="padding: 0 var(--gutter) 5rem;">
+    <div style="max-width: var(--container); margin: 0 auto; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-md); aspect-ratio: 16/6; min-height: 280px;">
+      <iframe
+        title="Kamran Dhaba on Google Maps"
+        src="https://www.google.com/maps?q=Mughalpura+Lahore&output=embed"
+        width="100%" height="100%" style="border:0; display:block;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand"><span class="footer__logo">KD</span><span class="footer__name">Kamran Dhaba</span></div>
+          <p class="footer__about">Authentic Pakistani and Punjabi food — slow-cooked, generously spiced, served with warmth since 1987.</p>
+        </div>
+        <div>
+          <h5>Visit</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Full Menu</a></li>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Help</h5>
+          <ul>
+            <li><a href="contact.html">Order Delivery</a></li>
+            <li><a href="contact.html">Catering</a></li>
+            <li><a href="contact.html">Gift Vouchers</a></li>
+          </ul>
+        </div>
+        <div class="footer__newsletter">
+          <h5>Stay in the Kitchen</h5>
+          <p>Recipes and dhaba stories — to your inbox monthly.</p>
+          <form id="newsletter-form" novalidate>
+            <input type="email" name="email" placeholder="your@email.com" required />
+            <button type="submit">Join</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 Kamran Dhaba. All rights reserved.</span>
+        <span><a href="#">Privacy</a> · <a href="#">Terms</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

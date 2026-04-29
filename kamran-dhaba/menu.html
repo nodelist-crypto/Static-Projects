@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu — Kamran Dhaba</title>
+  <meta name="description" content="Full menu of Kamran Dhaba — karahi, biryani, nihari, tikka, kebabs, daal, naans, breakfast, drinks and desserts. Honest prices, generous portions." />
+  <meta name="theme-color" content="#6B1B1B" />
+  <link rel="icon" type="image/png" href="images/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__brand" aria-label="Kamran Dhaba home">
+        <span class="nav__logo">KD</span>
+        <span>
+          <span class="nav__name">Kamran Dhaba</span>
+          <span class="nav__tag">Since 1987</span>
+        </span>
+      </a>
+      <nav>
+        <ul class="nav__menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav__cta">
+        <a href="reservations.html" class="btn btn--primary btn--sm">Book a Table</a>
+        <button class="nav__toggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ PAGE HERO ============ -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="crumbs"><a href="index.html">Home</a> &nbsp;/&nbsp; Menu</div>
+      <h1 class="page-hero__title">Our Menu</h1>
+      <p class="page-hero__lede">
+        Forty-three dishes from the corners of old Punjab, Sindh and the Frontier —
+        cooked the slow, honest way. Prices in Pakistani Rupees, taxes included.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ MENU ============ -->
+  <section class="section section--cream">
+    <div class="container">
+
+      <!-- Tabs -->
+      <div class="menu-tabs reveal">
+        <button class="menu-tab is-active" data-target="all">All</button>
+        <button class="menu-tab" data-target="breakfast">Breakfast</button>
+        <button class="menu-tab" data-target="curries">Curries</button>
+        <button class="menu-tab" data-target="biryani">Biryani & Rice</button>
+        <button class="menu-tab" data-target="tandoor">Tandoor</button>
+        <button class="menu-tab" data-target="bbq">BBQ & Kebab</button>
+        <button class="menu-tab" data-target="vegetarian">Vegetarian</button>
+        <button class="menu-tab" data-target="breads">Breads</button>
+        <button class="menu-tab" data-target="drinks">Drinks</button>
+        <button class="menu-tab" data-target="desserts">Desserts</button>
+      </div>
+
+      <!-- Breakfast -->
+      <div class="menu-section reveal" data-category="breakfast">
+        <div class="menu-section__head">
+          <h2>Breakfast (Naashta)</h2>
+          <p>Served daily 7:00 — 11:30 AM. Friday halwa puri until 12:30.</p>
+        </div>
+        <div class="menu-grid">
+          <div class="menu-item">
+            <img src="images/dish-halwapuri.png" alt="Halwa Puri" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Halwa Puri Plate <span class="badge veg">VEG</span></h3>
+                <span class="menu-item__price">Rs. 480</span>
+              </div>
+              <p class="menu-item__desc">Two crisp puris, semolina halwa, channa masala and aloo bhujia. The Sunday classic, every day.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="images/dish-nihari.png" alt="Nashta Nihari" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Nashta Nihari (Bowl)</h3>
+                <span class="menu-item__price">Rs. 650</span>
+              </div>
+              <p class="menu-item__desc">Slow-cooked beef shank in a small breakfast bowl, with kulcha or naan and fresh lemon.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="images/dish-daal.png" alt="Anda Paratha" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Anda Paratha <span class="badge veg">EGG</span></h3>
+                <span class="menu-item__price">Rs. 320</span>
+              </div>
+              <p class="menu-item__desc">Hand-rolled paratha with two eggs cooked in desi ghee, served with fresh chai.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="images/dish-naan.png" alt="Lassi & Channa" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Channay & Tandoori Roti <span class="badge veg">VEG</span></h3>
+                <span class="menu-item__price">Rs. 280</span>
+              </div>
+              <p class="menu-item__desc">Spiced chickpeas with a hot tandoori roti and pickled onions on the side.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Curries -->
+      <div class="menu-section reveal" data-category="curries">
+        <div class="menu-section__head">
+          <h2>Curries (Salan)</h2>
+          <p>Slow-simmered in cast iron over low charcoal. All curries serve two.</p>
+        </div>
+        <div class="menu-grid">
+          <div class="menu-item">
+            <img src="images/dish-karahi.png" alt="Chicken Karahi" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Chicken Karahi <span class="badge spicy">CHEF'S PICK</span></h3>
+                <span class="menu-item__price">Rs. 1,450</span>
+              </div>
+              <p class="menu-item__desc">Free-range chicken, hand-crushed tomatoes, ginger, green chilies, our 14-spice masala.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="images/dish-karahi.png" alt="Mutton Karahi" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Mutton Karahi</h3>
+                <span class="menu-item__price">Rs. 2,200</span>
+              </div>
+              <p class="menu-item__desc">Bone-in mutton braised down with tomato, fresh ginger and our karahi masala. Rich, dark, unforgettable.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="images/dish-nihari.png" alt="Beef Nihari" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Beef Nihari <span class="badge">SPECIALTY</span></h3>
+                <span class="menu-item__price">Rs. 1,650</span>
+              </div>
+              <p class="menu-item__desc">Eight-hour stew of beef shank in 21 spices. Served with ginger, lemon, fried onions.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="images/dish-nihari.png" alt="Haleem" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Beef Haleem</h3>
+                <span class="menu-item__price">Rs. 720</span>
+              </div>
+              <p class="menu-item__desc">Wheat, barley, lentils and shredded beef pounded into a thick, smoky stew. Garnished traditionally.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="images/dish-karahi.png" alt="Chicken Korma" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Chicken Korma</h3>
+                <span class="menu-item__price">Rs. 1,380</span>
+              </div>
+              <p class="menu-item__desc">Mughlai-style yogurt and almond gravy, fragrant with cardamom and clove. Mild, royal, generous.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="images/dish-karahi.png" alt="Mutton Paya" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Mutton Paya</h3>
+                <span class="menu-item__price">Rs. 1,800</span>
+              </div>
+              <p class="menu-item__desc">Trotters slow-cooked overnight until the broth turns to gold. Served Friday only.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Biryani -->
+      <div class="menu-section reveal" data-category="biryani">
+        <div class="menu-section__head">
+          <h2>Biryani & Rice</h2>
+          <p>Layered overnight, cooked dum-style in copper handi. Served with raita and salan.</p>
+        </div>
+        <div class="menu-grid">
+          <div class="menu-item">
+            <img src="images/dish-biryani.png" alt="Mutton Biryani" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Mutton Biryani <span class="badge">BESTSELLER</span></h3>
+                <span class="menu-item__price">Rs. 1,800</span>
+              </div>
+              <p class="menu-item__desc">Saffron rice, slow-braised mutton, fried onions, kewra. Plate of two-and-a-half servings.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="images/dish-biryani.png" alt="Chicken Biryani" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Chicken Biryani</h3>
+                <span class="menu-item__price">Rs. 1,400</span>
+              </div>
+              <p class="menu-item__desc">Sindhi-style with potatoes, tomato, mint and a hint of green chili.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="images/dish-biryani.png" alt="Beef Pulao" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Beef Yakhni Pulao</h3>
+                <span class="menu-item__price">Rs. 1,250</span>
+              </div>
+              <p class="menu-item__desc">Rice cooked in beef stock with whole spices. Subtle, fragrant, no chili. A Lahore classic.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="images/dish-biryani.png" alt="Vegetable Biryani" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Vegetable Biryani <span class="badge veg">VEG</span></h3>
+                <span class="menu-item__price">Rs. 980</span>
+              </div>
+              <p class="menu-item__desc">Carrot, potato, peas and paneer cubes layered with saffron rice and crisp onions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tandoor -->
+      <div class="menu-section reveal" data-category="tandoor">
+        <div class="menu-section__head">
+          <h2>From the Tandoor</h2>
+          <p>Wood-fired clay oven at 800°C. Charred outside, juicy inside.</p>
+        </div>
+        <div class="menu-grid">
+          <div class="menu-item">
+            <img src="images/dish-tikka.png" alt="Chicken Tikka" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Chicken Tikka (Half)</h3>
+                <span class="menu-item__price">Rs. 750</span>
+              </div>
+              <p class="menu-item__desc">Half chicken marinated 24 hours in yogurt, garam masala and lemon, charred on skewers.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="images/dish-tikka.png" alt="Chicken Tikka Full" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Chicken Tikka (Full)</h3>
+                <span class="menu-item__price">Rs. 1,250</span>
+              </div>
+              <p class="menu-item__desc">Whole bird butterflied and slow-grilled. Best for two.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="images/dish-tikka.png" alt="Malai Boti" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Chicken Malai Boti</h3>
+                <span class="menu-item__price">Rs. 1,150</span>
+              </div>
+              <p class="menu-item__desc">Boneless chicken in a creamy cashew and white pepper marinade. Mild, lush, addictive.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="images/dish-tikka.png" alt="Mutton Chops" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Tandoori Mutton Chops</h3>
+                <span class="menu-item__price">Rs. 1,950</span>
+              </div>
+              <p class="menu-item__desc">Six chops marinated in raw papaya, yogurt and our chop masala — falling-off-the-bone tender.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BBQ & Kebab -->
+      <div class="menu-section reveal" data-category="bbq">
+        <div class="menu-section__head">
+          <h2>BBQ & Kebab Platter</h2>
+          <p>Grilled to order. All kebabs come with mint chutney and onion-lemon salad.</p>
+        </div>
+        <div class="menu-grid">
+          <div class="menu-item">
+            <img src="images/dish-kebab.png" alt="Seekh Kebab" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Beef Seekh Kebab (4 pcs)</h3>
+                <span class="menu-item__price">Rs. 950</span>
+              </div>
+              <p class="menu-item__desc">Hand-minced beef rolled with ginger, green chilies and roasted cumin onto skewers.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="images/dish-kebab.png" alt="Chicken Seekh" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Chicken Seekh Kebab (4 pcs)</h3>
+                <span class="menu-item__price">Rs. 850</span>
+              </div>
+              <p class="menu-item__desc">Lighter, smokier, lemony. The kids' favorite.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="images/dish-kebab.png" alt="Bihari Boti" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Bihari Beef Boti</h3>
+                <span class="menu-item__price">Rs. 1,350</span>
+              </div>
+              <p class="menu-item__desc">Thin beef strips marinated 12 hours in mustard oil and roasted spices, charred fast and hot.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="images/dish-kebab.png" alt="Mixed Platter" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Kamran Mixed Grill <span class="badge spicy">FOR 4</span></h3>
+                <span class="menu-item__price">Rs. 3,800</span>
+              </div>
+              <p class="menu-item__desc">Tikka, malai boti, seekh, bihari boti, chops and naans on a sizzling cast-iron platter. Feeds four hungry guests.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Vegetarian -->
+      <div class="menu-section reveal" data-category="vegetarian">
+        <div class="menu-section__head">
+          <h2>Vegetarian</h2>
+          <p>Cooked separately in dedicated pans. No shortcuts.</p>
+        </div>
+        <div class="menu-grid">
+          <div class="menu-item">
+            <img src="images/dish-daal.png" alt="Daal Makhani" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Daal Makhani <span class="badge veg">VEG</span></h3>
+                <span class="menu-item__price">Rs. 750</span>
+              </div>
+              <p class="menu-item__desc">Black urad lentils slow-simmered overnight with butter, cream and a tempering of cumin.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="images/dish-daal.png" alt="Daal Tarka" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Daal Chana Tarka <span class="badge veg">VEG</span></h3>
+                <span class="menu-item__price">Rs. 580</span>
+              </div>
+              <p class="menu-item__desc">Split chickpea lentils with a roaring tarka of garlic, dried red chili and curry leaves.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="images/dish-daal.png" alt="Sabzi" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Bhindi Masala <span class="badge veg">VEG</span></h3>
+                <span class="menu-item__price">Rs. 680</span>
+              </div>
+              <p class="menu-item__desc">Okra slow-fried with onion, tomato and amchur till the edges crisp up.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="images/dish-daal.png" alt="Palak Paneer" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Palak Paneer <span class="badge veg">VEG</span></h3>
+                <span class="menu-item__price">Rs. 820</span>
+              </div>
+              <p class="menu-item__desc">Hand-pureed spinach with cubes of fresh house-made paneer, finished with cream and ghee.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Breads -->
+      <div class="menu-section reveal" data-category="breads">
+        <div class="menu-section__head">
+          <h2>Breads from the Tandoor</h2>
+          <p>Slapped on the wall of the clay oven. Order plenty.</p>
+        </div>
+        <div class="menu-grid">
+          <div class="menu-item">
+            <img src="images/dish-naan.png" alt="Tandoori Naan" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Tandoori Naan <span class="badge veg">VEG</span></h3>
+                <span class="menu-item__price">Rs. 80</span>
+              </div>
+              <p class="menu-item__desc">The classic. Charred bubbles, soft crumb, brushed with ghee.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="images/dish-naan.png" alt="Garlic Naan" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Garlic & Coriander Naan <span class="badge veg">VEG</span></h3>
+                <span class="menu-item__price">Rs. 140</span>
+              </div>
+              <p class="menu-item__desc">Topped with crushed garlic, fresh coriander and nigella seeds.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="images/dish-naan.png" alt="Cheese Naan" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Cheese Naan <span class="badge veg">VEG</span></h3>
+                <span class="menu-item__price">Rs. 240</span>
+              </div>
+              <p class="menu-item__desc">Stuffed with mozzarella and cheddar, brushed with herb butter.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="images/dish-naan.png" alt="Tandoori Roti" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Tandoori Roti <span class="badge veg">VEG</span></h3>
+                <span class="menu-item__price">Rs. 60</span>
+              </div>
+              <p class="menu-item__desc">Whole wheat dough hand-flattened and tandoor-baked. The honest one.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Drinks -->
+      <div class="menu-section reveal" data-category="drinks">
+        <div class="menu-section__head">
+          <h2>Drinks</h2>
+          <p>Cold lassis, fresh juices and house chai.</p>
+        </div>
+        <div class="menu-grid">
+          <div class="menu-item">
+            <img src="images/dish-naan.png" alt="Sweet Lassi" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Sweet Lassi <span class="badge veg">VEG</span></h3>
+                <span class="menu-item__price">Rs. 220</span>
+              </div>
+              <p class="menu-item__desc">Whipped fresh yogurt, sugar and a single ice cube. Topped with malai.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="images/dish-naan.png" alt="Salty Lassi" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Mango Lassi (seasonal) <span class="badge veg">VEG</span></h3>
+                <span class="menu-item__price">Rs. 280</span>
+              </div>
+              <p class="menu-item__desc">Whipped with Sindhri or Chaunsa pulp, depending on the week.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="images/dish-naan.png" alt="Doodh Patti" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Karak Doodh Patti</h3>
+                <span class="menu-item__price">Rs. 140</span>
+              </div>
+              <p class="menu-item__desc">Tea simmered in milk with cardamom till it turns mahogany. Strong and sweet.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="images/dish-naan.png" alt="Fresh Lime" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Fresh Lime Soda</h3>
+                <span class="menu-item__price">Rs. 180</span>
+              </div>
+              <p class="menu-item__desc">Lime, mint, sugar and soda. Sweet, salty or both — your call.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Desserts -->
+      <div class="menu-section reveal" data-category="desserts">
+        <div class="menu-section__head">
+          <h2>Desserts (Mithai)</h2>
+          <p>Made in-house every morning, never the day before.</p>
+        </div>
+        <div class="menu-grid">
+          <div class="menu-item">
+            <img src="images/dish-halwapuri.png" alt="Gulab Jamun" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Gulab Jamun (3 pcs) <span class="badge veg">VEG</span></h3>
+                <span class="menu-item__price">Rs. 280</span>
+              </div>
+              <p class="menu-item__desc">Soft khoya dumplings soaked in cardamom-rose syrup. Served warm.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="images/dish-halwapuri.png" alt="Kheer" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Rice Kheer <span class="badge veg">VEG</span></h3>
+                <span class="menu-item__price">Rs. 320</span>
+              </div>
+              <p class="menu-item__desc">Reduced milk pudding with rice, cardamom, slivered almonds and pistachios.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="images/dish-halwapuri.png" alt="Kulfi" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Pistachio Kulfi <span class="badge veg">VEG</span></h3>
+                <span class="menu-item__price">Rs. 260</span>
+              </div>
+              <p class="menu-item__desc">Hand-frozen kulfi on a stick, dusted with crushed pistachio.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="images/dish-halwapuri.png" alt="Halwa" class="menu-item__img" />
+            <div class="menu-item__body">
+              <div class="menu-item__head">
+                <h3 class="menu-item__name">Gajar Halwa (winter) <span class="badge veg">VEG</span></h3>
+                <span class="menu-item__price">Rs. 360</span>
+              </div>
+              <p class="menu-item__desc">Carrots slow-cooked in milk and ghee for four hours, finished with khoya and nuts.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">
+            <span class="footer__logo">KD</span>
+            <span class="footer__name">Kamran Dhaba</span>
+          </div>
+          <p class="footer__about">
+            Authentic Pakistani and Punjabi food the way it was meant to be —
+            slow-cooked, generously spiced, served with warmth since 1987.
+          </p>
+        </div>
+        <div>
+          <h5>Visit</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Full Menu</a></li>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Help</h5>
+          <ul>
+            <li><a href="contact.html">Order Delivery</a></li>
+            <li><a href="contact.html">Catering</a></li>
+            <li><a href="contact.html">Gift Vouchers</a></li>
+          </ul>
+        </div>
+        <div class="footer__newsletter">
+          <h5>Stay in the Kitchen</h5>
+          <p>Recipes and dhaba stories — straight to your inbox.</p>
+          <form id="newsletter-form" novalidate>
+            <input type="email" name="email" placeholder="your@email.com" required />
+            <button type="submit">Join</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 Kamran Dhaba. All rights reserved.</span>
+        <span><a href="#">Privacy</a> · <a href="#">Terms</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
